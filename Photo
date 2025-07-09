@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesyka's Family</title>
+  <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: #0077cc;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .photo-card {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .photo-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .caption {
+      padding: 1rem;
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#jesyka">Jesyka</a>
+      <a href="#tracy">Tracy</a>
+      <a href="#blake">Blake</a>
+      <a href="#rose">Rose</a>
+      <a href="#riot">Riot</a>
+      <a href="#rain">Rain</a>
+      <a href="#parental">Parental</a>
+      <a href="#pets">Pets</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="jesyka">
+      <h2>Jesyka</h2>
+      <div class="gallery">
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Jesyka+1" alt="Jesyka Photo 1">
+          <div class="caption">A little description about this photo of Jesyka.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tracy">
+      <h2>Tracy</h2>
+      <div class="gallery">
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Tracy+1" alt="Tracy Photo 1">
+          <div class="caption">Tracy at the family gathering.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blake">
+      <h2>Blake</h2>
+      <div class="gallery">
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Blake+1" alt="Blake Photo 1">
+          <div class="caption">Blake relaxing on vacation.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rose">
+      <h2>Rose</h2>
+      <div class="gallery">
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Rose+1" alt="Rose Photo 1">
+          <div class="caption">Rose playing in the park.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="riot">
+      <h2>Riot</h2>
+      <div class="gallery">
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Riot+1" alt="Riot Photo 1">
+          <div class="caption">Riot’s superhero costume moment.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rain">
+      <h2>Rain</h2>
+      <div class="gallery">
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Rain+1" alt="Rain Photo 1">
+          <div class="caption">Rain making cookies with the family.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="parental">
+      <h2>Parental</h2>
+      <div class="gallery">
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Parental+1" alt="Parental Photo 1">
+          <div class="caption">Parental unit enjoying a quiet afternoon.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pets">
+      <h2>Pets</h2>
+      <div class="gallery">
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Helvetica" alt="Helvetica">
+          <div class="caption">Helvetica being elegant.</div>
+        </div>
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Reverie" alt="Reverie">
+          <div class="caption">Reverie in her daydream world.</div>
+        </div>
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Zzyzx+Road" alt="Zzyzx Road">
+          <div class="caption">Zzyzx Road being mysterious as always.</div>
+        </div>
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Stormi" alt="Stormi">
+          <div class="caption">Stormi hiding in a blanket fort.</div>
+        </div>
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Astrid" alt="Astrid">
+          <div class="caption">Astrid watching birds at the window.</div>
+        </div>
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Bandit" alt="Bandit">
+          <div class="caption">Bandit sneaking treats again!</div>
+        </div>
+        <div class="photo-card">
+          <img src="https://via.placeholder.com/600x400?text=Nisha" alt="Nisha">
+          <div class="caption">Nisha taking a nap in the sun.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Jesyka's Family Album. Made with ❤️
+  </footer>
+
+</body>
+</html>
